@@ -1,0 +1,2 @@
+# JavaScriptPractice
+积累的平时练习JavaScript程序的小仓库
