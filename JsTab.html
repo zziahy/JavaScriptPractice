@@ -94,26 +94,26 @@
 	</body>
 	<script>
 		var oUl1 = document.getElementById("ul1");
-        var aLi = oUl1.getElementsByTagName("li");
-        var oDiv = document.getElementById("tab-list");
-        var aDiv = oDiv.getElementsByTagName("div");
-        for(var i = 0; i < aLi.length; i++) {
-        	//1、获取到aLi数组的索引值
-            aLi[i].index = i;
-            aLi[i].onmouseover = function() {
-                for(var i = 0; i < aLi.length; i++) {
-                	//2、先让所有在id为ul1的li元素的class值为空
-                    aLi[i].className = "";
-                }
-                //3、在目标元素上添加class="active"
-                this.className = "active";
-                for(var j = 0; j < aDiv.length; j++) {
-                	//4、先让所有div的class值为hide
-                    aDiv[j].className = "hide";
-                }
-                //5、在目标元素上添加class="show"
-                aDiv[this.index].className = "show";
-            }        
-        }
+		var aLi = oUl1.getElementsByTagName("li");
+		var oDiv = document.getElementById("tab-list");
+		var aDiv = oDiv.getElementsByTagName("div");
+		for(var i = 0; i < aLi.length; i++) {
+		    //1、获取到aLi数组的索引值
+		    aLi[i].index = i;
+		    aLi[i].onmouseover = function() {
+			for(var i = 0; i < aLi.length; i++) {
+			     //2、先让所有在id为ul1的li元素的class值为空
+			    aLi[i].className = "";
+			}
+			//3、在目标元素上添加class="active"
+			this.className = "active";
+			for(var j = 0; j < aDiv.length; j++) {
+			    //4、先让所有div的class值为hide
+			    aDiv[j].className = "hide";
+			}
+			//5、在目标元素上添加class="show"
+			aDiv[this.index].className = "show";
+		    }        
+		}
 	</script>
 </html>
