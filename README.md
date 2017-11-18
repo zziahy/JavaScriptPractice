@@ -17,6 +17,6 @@ this就等于你的trs[i]，function里面再用trs[i]  就相当于等号两边
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsTab.html)
 
 ### 3、JsSlidingDoors.html简介
-这是一个利用JavaScript实现的简单滑动门效果，类似于手风琴，优点是代码简洁，缺点是没有做动画处理。
+这是一个利用JavaScript实现的简单滑动门效果，类似于手风琴，优点是代码简洁，缺点是没有做动画效果过渡处理。
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsSlidingDoors.html)
