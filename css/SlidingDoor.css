@@ -1,0 +1,16 @@
+#box{
+	height: 460px;
+	border: 1px solid black;
+	margin: 30px auto;
+	overflow: hidden;
+	position: relative;
+}
+#box img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+}
+#box img:hover{
+	cursor: pointer;
+}
