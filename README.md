@@ -20,3 +20,8 @@ this就等于你的trs[i]，function里面再用trs[i]  就相当于等号两边
 这是一个利用JavaScript实现的简单滑动门效果，类似于手风琴，优点是代码简洁，缺点是没有做动画效果过渡处理。
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsSlidingDoors.html)
+
+### 4、JsEvent.html简介
+点击按钮，显示登录图层或者隐藏关闭图层，代码并不复杂，主要问题在于解决IE浏览器、上古浏览器之间的兼容性。
+
+[效果展示](https://cruxf.github.io/JavaScriptPractice/JsEvent.html)
