@@ -35,3 +35,8 @@ this就等于你的trs[i]，function里面再用trs[i]  就相当于等号两边
 利用JavaScript实现一个抽奖程序，用到的知识点有数组、鼠标事件、键盘事件和定时器，编写程序的时候记得定时器能够叠加这回事那么实现这个抽奖就不难了。
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsKeyEvent.html)
+
+### 7、JsLiSelect.html简介
+使用列表实现一个下拉菜单，当然，菜单的实现还是利用select最好，但是这次的训练为了提高相关事件兼容性的处理、提高对事件冒泡以及鼠标等事件的理解。代码量多，其实认真分析、认真观察的话还是非常好理解的。
+
+[效果展示](https://cruxf.github.io/JavaScriptPractice/JsLiSelect.html)
