@@ -30,3 +30,8 @@ this就等于你的trs[i]，function里面再用trs[i]  就相当于等号两边
 这是一个QQ面板拖动的代码实现，代码较为庞大和复杂，需要有很好的JavaScript基础才能理解，其中涉及到了很多元素宽高之间的计算以及事件冒泡的知识。
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsQqEvent.html)
+
+### 5、JsKeyEvent.html简介
+利用JavaScript实现一个抽奖程序，用到的知识点有数组、鼠标事件、键盘事件和定时器，编写程序的时候记得定时器能够叠加这回事那么实现这个抽奖就不难了。
+
+[效果展示](https://cruxf.github.io/JavaScriptPractice/JsKeyEvent.html)
