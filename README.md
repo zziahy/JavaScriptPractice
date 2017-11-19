@@ -31,7 +31,7 @@ this就等于你的trs[i]，function里面再用trs[i]  就相当于等号两边
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsQqEvent.html)
 
-### 5、JsKeyEvent.html简介
+### 6、JsKeyEvent.html简介
 利用JavaScript实现一个抽奖程序，用到的知识点有数组、鼠标事件、键盘事件和定时器，编写程序的时候记得定时器能够叠加这回事那么实现这个抽奖就不难了。
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsKeyEvent.html)
