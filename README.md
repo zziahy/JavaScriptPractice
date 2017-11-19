@@ -25,3 +25,8 @@ this就等于你的trs[i]，function里面再用trs[i]  就相当于等号两边
 点击按钮，显示登录图层或者隐藏关闭图层，代码并不复杂，主要问题在于解决IE浏览器、上古浏览器之间的兼容性。
 
 [效果展示](https://cruxf.github.io/JavaScriptPractice/JsEvent.html)
+
+### 5、JsQqEvent.html简介
+这是一个QQ面板拖动的代码实现，代码较为庞大和复杂，需要有很好的JavaScript基础才能理解，其中涉及到了很多元素宽高之间的计算以及事件冒泡的知识。
+
+[效果展示](https://cruxf.github.io/JavaScriptPractice/JsQqEvent.html)
